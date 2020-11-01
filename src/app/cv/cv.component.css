@@ -1,0 +1,80 @@
+.container {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  border: 1px solid black;
+  font-size: small;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.personal {
+  width: 100%;
+  height: 13%;
+  background-color: red;
+}
+
+.photo {
+  width: 25%;
+  ;
+  float: left;
+}
+
+.photo img {
+  margin: 6px 15px;
+  width: 85%;
+  height: auto;
+}
+
+.about-me {
+  width: 70%;
+  float: left;
+}
+
+.about-me p {
+  margin: 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: blue;
+  height: 30px;
+}
+
+.contact-info div {
+  width: 25%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.experience {
+  width: 50%;
+  float: left;
+  height: 84.4%;
+  padding: 10px;
+  background-color: lime;
+}
+
+.experience h2 {
+  margin: 5px 0;
+}
+
+.experience p {
+  margin: 0
+}
+
+.education {
+    width: 47.4%;
+    float: left;
+    height: 84.4%;
+    background-color: blueviolet;
+}
