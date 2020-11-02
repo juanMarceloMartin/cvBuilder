@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .container {
   width: 21cm;
   height: 29.7cm;
@@ -5,7 +8,6 @@
   border: 1px solid black;
   font-size: small;
   z-index: 10;
-  box-sizing: border-box;
 }
 
 .personal {
@@ -36,17 +38,18 @@
 }
 
 .contact-info {
-  display: flex;
-  justify-content: center;
   width: 100%;
   background-color: blue;
-  height: 30px;
+  height: 4%;
 }
 
 .contact-info div {
-  width: 25%;
-  text-align: center;
-  padding: 5px 0;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  padding-left: 15%;
+  display: inline-block;
+  width: 50%;
+  text-align: left;
 }
 
 h1,
@@ -57,9 +60,10 @@ h4 {
 }
 
 .experience {
-  width: 50%;
+  padding: 10px;
+  width: 100%;
   float: left;
-  height: 84.4%;
+  height: 79%;
   background-color: lime;
 }
 
@@ -71,10 +75,70 @@ h4 {
   margin: 0
 }
 
-.education {
-  width: 50%;
-  float: left;
-  height: 84.4%;
-  background-color: blueviolet;
+.education p {
+  margin: 0
+}
 
+.projects p {
+  margin: 0;
+}
+
+.education {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  height: 44%;
+  background-color: blueviolet;
+}
+
+.position {
+  margin: 15px auto;
+}
+
+.position-date {
+  width: 30%;
+  float: left;
+}
+
+.position-location {
+  width: 70%;
+  float: right;
+  text-align: right
+}
+
+ul {
+  margin: 7px auto;
+  padding-left: 20px;
+  list-style-type: '- ';
+}
+
+.languages {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  height: 21%;
+  background-color: green;
+}
+
+.languages p {
+  margin: 6% auto;
+}
+
+.projects {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  height: 56%;
+  background-color: pink;
+}
+
+.section {
+  display: inline-block;
+  background-color: lightgrey;
+  width: 50%;
+  height: 83%
+}
+
+.project-item-list {
+  margin: 0;
 }
