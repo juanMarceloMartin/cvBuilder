@@ -60,7 +60,6 @@ h4 {
   width: 50%;
   float: left;
   height: 84.4%;
-  padding: 10px;
   background-color: lime;
 }
 
@@ -73,8 +72,9 @@ h4 {
 }
 
 .education {
-    width: 47.4%;
-    float: left;
-    height: 84.4%;
-    background-color: blueviolet;
+  width: 50%;
+  float: left;
+  height: 84.4%;
+  background-color: blueviolet;
+
 }
