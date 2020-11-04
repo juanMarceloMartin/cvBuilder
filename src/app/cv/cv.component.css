@@ -159,6 +159,7 @@ i {
 }
 
 .title {
+  margin: 0 auto;
   color: #1b4f77;
   text-transform: uppercase;
 }
