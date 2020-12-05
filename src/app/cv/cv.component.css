@@ -102,11 +102,11 @@ h4, h5, h6 {
   padding: 10px;
   width: 100%;
   float: left;
-  height: 44%;
+  height: 19%;
 }
 
 .position {
-  margin: 15px auto;
+  margin: 7px auto;
 }
 
 .position-date {
@@ -126,22 +126,44 @@ ul {
   list-style-type: '- ';
 }
 
+.skills {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  height: 20%;
+}
+
 .languages {
   padding: 10px;
   width: 100%;
   float: left;
-  height: 21%;
+  height: 11%;
 }
 
 .languages p {
-  margin: 6% auto;
+  margin: 3% auto;
+}
+
+.references {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  height: 12%;
+}
+
+.reference {
+  margin: 5px auto;
+}
+
+.reference h4 {
+  margin-bottom: 3px;
 }
 
 .projects {
   padding: 10px;
   width: 100%;
   float: left;
-  height: 56%;
+  height: 52%;
 }
 
 .section {
